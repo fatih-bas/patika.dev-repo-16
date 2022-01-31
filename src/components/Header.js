@@ -9,7 +9,7 @@ const Header = ({onSubmit}) => {
 
  const handleSubmit = (e) => {
     e.preventDefault();
-    {/*set random uniq id*/}
+    
     onSubmit({
       
          id:Math.floor(Math.random()*10000),
