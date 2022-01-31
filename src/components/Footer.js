@@ -6,7 +6,7 @@ const Footer = ({
   categoryHandler,
   activeCategory
 }) => {
-    {/*filtered not completed*/}
+    
     let remain = todos.filter(todo => todo.isComplete === false);
    
   return (
