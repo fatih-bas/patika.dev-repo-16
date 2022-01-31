@@ -18,26 +18,26 @@ const Footer = ({
 
         <ul className="filters">
           <li>
-            <a 
+            <a href="#/"
               className={activeCategory === "All" ? "selected" : ""} onClick={()=> categoryHandler("All")}>
               All
             </a>
           </li>
           <li>
-            <a 
+            <a href="#/"
             className={activeCategory === "Active" ? "selected" : ""} onClick={()=> categoryHandler("Active")}>
               Active
             </a>
           </li>
           <li>
-          <a 
+          <a href="#/"
             className={activeCategory === "Completed" ? "selected" : ""} 
             onClick={() => categoryHandler("Completed")}>
             Completed
           </a>
           </li>
         </ul>
-        {/*show/hide clear completed button*/}
+        
           {todos.some( todo => todo.isComplete === true) && (
             <button 
               className="clear-completed" 
