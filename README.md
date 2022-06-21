@@ -1,6 +1,6 @@
-# Patika.dev-repo-16
-### Front-End Patikası React Bölümü, Bölüm Sonu Uygulaması
-- TodoMVC App
+
+### React TodoMVC App
+
 
 ### Setup
 1. Clone the repository and install the dependencies
